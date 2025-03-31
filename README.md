@@ -14,8 +14,7 @@ I'm currently studying
   <img alt="github-snake" src="https://raw.githubusercontent.com/chinni-d/chinni-d/output/github-snake.svg" />
 </picture>
 
-### ✍️ Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+
 
 ---
 [![](https://visitcount.itsvg.in/api?id=chinni-d&icon=0&color=0)](https://visitcount.itsvg.in)
