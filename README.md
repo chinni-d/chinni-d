@@ -10,10 +10,6 @@
   <img alt="github-snake" src="https://raw.githubusercontent.com/chinni-d/chinni-d/output/github-snake.svg" />
 </picture>
 
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=chinni-d&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=chinni-d&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=chinni-d&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
 
 ---
