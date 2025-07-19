@@ -1,7 +1,8 @@
 ## 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/manikanta-darapureddy-6a1125314/) 
 [![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:darapureddymanikanta8@gmail.com) 
-[![Website](https://img.shields.io/badge/Portfolio-000000?logo=google-chrome&logoColor=white)](https://dmanikanta.site)
+[![Website](https://img.shields.io/badge/Website-%F0%9F%8C%90-blue)](https://dmanikanta.site)
+
 
 
 # 💻 Tech Stack:
