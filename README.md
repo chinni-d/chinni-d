@@ -13,7 +13,7 @@
 
 
 # 💻 Tech Stack:
-<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
+<div style="display: flex; overflow-x: auto; white-space: nowrap; gap: 10px; padding: 10px;">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" height="40" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" />
