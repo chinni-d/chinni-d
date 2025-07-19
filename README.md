@@ -59,11 +59,6 @@
 </div>
 
 ###
-<img src="https://raw.githubusercontent.com/chinni-d/chinni-d/output/snake.svg" alt="Snake animation" />
-
-
-
-###
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/chinni-d/chinni-d/output/github-snake-dark.svg" />
