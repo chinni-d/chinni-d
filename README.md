@@ -1,4 +1,4 @@
-<div align="left" style="font-family: 'Brush Script MT', cursive; font-size: 40px;">
+<div align="left" style="font-family: 'Brush Script MT', cursive; font-size: 26px;">
   👋🌈 Hello, I'm <strong>Manikanta</strong>! 🚀💡
 </div>
 
