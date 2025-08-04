@@ -42,8 +42,8 @@
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 ![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=azure-devops&logoColor=white)
-![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
 ![AI](https://img.shields.io/badge/AI-black?style=for-the-badge&logo=openai&logoColor=white)
+![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
 ![ML](https://img.shields.io/badge/ML-black?style=for-the-badge&logo=polywork&logoColor=white)
 ![DL](https://img.shields.io/badge/DL-black?style=for-the-badge&logo=deepnote&logoColor=white)
 
