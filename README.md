@@ -9,7 +9,7 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/manikanta-darapureddy-6a1125314/)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:darapureddymanikanta8@gmail.com)
 [![Portfolio](https://img.shields.io/badge/Portfolio-1f6feb?style=flat&logo=globe&logoColor=white)](https://www.manikantadarapureddy.in)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/chinni-d)
+
 
 </div>
 
