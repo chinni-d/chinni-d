@@ -82,25 +82,6 @@ Specializing in **low-latency, high-performance** applications using **client-si
 
 </div>
 
-## 🟢 Expertise: Client-Side Processing (CSP)
-
-#### Why CSP?
-- 🟢 **Zero Infrastructure Cost** - Process data in the browser
-- ⚡ **Ultra-Low Latency** - No network round trips for computation
-- 🎯 **High Performance** - Leverage client hardware efficiently
-- 🔒 **Enhanced Privacy** - Data never leaves the user's device
-- 📱 **Offline Capable** - Works without internet connectivity
-
-## 🎯 What I Do
-
-- ⚡ Build **high-performance** web applications with **Client-Side Processing (CSP)** - Low latency, zero infrastructure costs
-- 🚀 Develop **scalable** backends with Node.js, Django, and FastAPI
-- 🤖 Implement **AI/ML solutions** using TensorFlow, PyTorch & scikit-learn
-- 💡 Create **intelligent systems** with LLMs, RAGs, and Generative AI
-- 🔄 Deploy **containerized applications** using Docker & Cloud platforms
-- 📈 Optimize **database performance** and system architecture
-- ⚙️ Leverage **edge computing** and **browser-native** capabilities for maximum efficiency
-
 <div align="center">
 
 ## 🌟 Let's Build Something Amazing Together
