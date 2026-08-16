@@ -1,0 +1,188 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 50" width="600" height="50">
+  <defs>
+    <!-- Import Fira Code font from Google Fonts -->
+    <style type="text/css">
+      @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@500;700&amp;display=swap');
+
+      /* Unified font specification so ch units are identical on all elements */
+      .font-spec {
+        font-family: 'Fira Code', monospace;
+        font-size: 24px;
+      }
+
+      .text-render {
+        font-weight: 500;
+        dominant-baseline: middle;
+      }
+
+      .static-text {
+        fill: #FFFFFF;
+      }
+
+      .dynamic-text {
+        fill: #F7DF1E;
+        font-weight: 700;
+      }
+
+      /* Blinking cursor animation */
+      @keyframes blink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0; }
+      }
+
+      .cursor {
+        fill: #F7DF1E;
+        animation: blink 0.8s infinite;
+      }
+
+      /* Width / Typewriter Animations using ch units and character steps */
+      @keyframes type-role-1 {
+        0% { width: 0ch; animation-timing-function: steps(17); visibility: visible; }
+        4% { width: 17ch; animation-timing-function: linear; visibility: visible; }
+        12% { width: 17ch; animation-timing-function: steps(17); visibility: visible; }
+        15% { width: 0ch; animation-timing-function: linear; visibility: visible; }
+        16.67%, 100% { width: 0ch; visibility: hidden; }
+      }
+
+      @keyframes type-role-2 {
+        0%, 16.67% { width: 0ch; visibility: hidden; }
+        16.68% { width: 0ch; animation-timing-function: steps(26); visibility: visible; }
+        20.67% { width: 26ch; animation-timing-function: linear; visibility: visible; }
+        28.67% { width: 26ch; animation-timing-function: steps(26); visibility: visible; }
+        31.67% { width: 0ch; animation-timing-function: linear; visibility: visible; }
+        33.33%, 100% { width: 0ch; visibility: hidden; }
+      }
+
+      @keyframes type-role-3 {
+        0%, 33.33% { width: 0ch; visibility: hidden; }
+        33.34% { width: 0ch; animation-timing-function: steps(25); visibility: visible; }
+        37.33% { width: 25ch; animation-timing-function: linear; visibility: visible; }
+        45.33% { width: 25ch; animation-timing-function: steps(25); visibility: visible; }
+        48.33% { width: 0ch; animation-timing-function: linear; visibility: visible; }
+        50%, 100% { width: 0ch; visibility: hidden; }
+      }
+
+      @keyframes type-role-4 {
+        0%, 50% { width: 0ch; visibility: hidden; }
+        50.01% { width: 0ch; animation-timing-function: steps(22); visibility: visible; }
+        54% { width: 22ch; animation-timing-function: linear; visibility: visible; }
+        62% { width: 22ch; animation-timing-function: steps(22); visibility: visible; }
+        65% { width: 0ch; animation-timing-function: linear; visibility: visible; }
+        66.67%, 100% { width: 0ch; visibility: hidden; }
+      }
+
+      @keyframes type-role-5 {
+        0%, 66.67% { width: 0ch; visibility: hidden; }
+        66.68% { width: 0ch; animation-timing-function: steps(27); visibility: visible; }
+        70.67% { width: 27ch; animation-timing-function: linear; visibility: visible; }
+        78.67% { width: 27ch; animation-timing-function: steps(27); visibility: visible; }
+        81.67% { width: 0ch; animation-timing-function: linear; visibility: visible; }
+        83.33%, 100% { width: 0ch; visibility: hidden; }
+      }
+
+      @keyframes type-role-6 {
+        0%, 83.33% { width: 0ch; visibility: hidden; }
+        83.34% { width: 0ch; animation-timing-function: steps(18); visibility: visible; }
+        87.33% { width: 18ch; animation-timing-function: linear; visibility: visible; }
+        95.33% { width: 18ch; animation-timing-function: steps(18); visibility: visible; }
+        98.33% { width: 0ch; animation-timing-function: linear; visibility: visible; }
+        100% { width: 0ch; visibility: hidden; }
+      }
+
+      /* Cursor movement matching width steps exactly */
+      @keyframes cursor-move-1 {
+        0% { transform: translateX(0ch); animation-timing-function: steps(17); visibility: visible; }
+        4% { transform: translateX(17ch); animation-timing-function: linear; visibility: visible; }
+        12% { transform: translateX(17ch); animation-timing-function: steps(17); visibility: visible; }
+        15% { transform: translateX(0ch); animation-timing-function: linear; visibility: visible; }
+        16.67%, 100% { transform: translateX(0ch); visibility: hidden; }
+      }
+
+      @keyframes cursor-move-2 {
+        0%, 16.67% { transform: translateX(0ch); visibility: hidden; }
+        16.68% { transform: translateX(0ch); animation-timing-function: steps(26); visibility: visible; }
+        20.67% { transform: translateX(26ch); animation-timing-function: linear; visibility: visible; }
+        28.67% { transform: translateX(26ch); animation-timing-function: steps(26); visibility: visible; }
+        31.67% { transform: translateX(0ch); animation-timing-function: linear; visibility: visible; }
+        33.33%, 100% { transform: translateX(0ch); visibility: hidden; }
+      }
+
+      @keyframes cursor-move-3 {
+        0%, 33.33% { transform: translateX(0ch); visibility: hidden; }
+        33.34% { transform: translateX(0ch); animation-timing-function: steps(25); visibility: visible; }
+        37.33% { transform: translateX(25ch); animation-timing-function: linear; visibility: visible; }
+        45.33% { transform: translateX(25ch); animation-timing-function: steps(25); visibility: visible; }
+        48.33% { transform: translateX(0ch); animation-timing-function: linear; visibility: visible; }
+        50%, 100% { transform: translateX(0ch); visibility: hidden; }
+      }
+
+      @keyframes cursor-move-4 {
+        0%, 50% { transform: translateX(0ch); visibility: hidden; }
+        50.01% { transform: translateX(0ch); animation-timing-function: steps(22); visibility: visible; }
+        54% { transform: translateX(22ch); animation-timing-function: linear; visibility: visible; }
+        62% { transform: translateX(22ch); animation-timing-function: steps(22); visibility: visible; }
+        65% { transform: translateX(0ch); animation-timing-function: linear; visibility: visible; }
+        66.67%, 100% { transform: translateX(0ch); visibility: hidden; }
+      }
+
+      @keyframes cursor-move-5 {
+        0%, 66.67% { transform: translateX(0ch); visibility: hidden; }
+        66.68% { transform: translateX(0ch); animation-timing-function: steps(27); visibility: visible; }
+        70.67% { transform: translateX(27ch); animation-timing-function: linear; visibility: visible; }
+        78.67% { transform: translateX(27ch); animation-timing-function: steps(27); visibility: visible; }
+        81.67% { transform: translateX(0ch); animation-timing-function: linear; visibility: visible; }
+        83.33%, 100% { transform: translateX(0ch); visibility: hidden; }
+      }
+
+      @keyframes cursor-move-6 {
+        0%, 83.33% { transform: translateX(0ch); visibility: hidden; }
+        83.34% { transform: translateX(0ch); animation-timing-function: steps(18); visibility: visible; }
+        87.33% { transform: translateX(18ch); animation-timing-function: linear; visibility: visible; }
+        95.33% { transform: translateX(18ch); animation-timing-function: steps(18); visibility: visible; }
+        98.33% { transform: translateX(0ch); animation-timing-function: linear; visibility: visible; }
+        100% { transform: translateX(0ch); visibility: hidden; }
+      }
+
+      #clip-rect-1 { animation: type-role-1 24s infinite; }
+      #clip-rect-2 { animation: type-role-2 24s infinite; }
+      #clip-rect-3 { animation: type-role-3 24s infinite; }
+      #clip-rect-4 { animation: type-role-4 24s infinite; }
+      #clip-rect-5 { animation: type-role-5 24s infinite; }
+      #clip-rect-6 { animation: type-role-6 24s infinite; }
+
+      #cursor-group-1 { animation: cursor-move-1 24s infinite; }
+      #cursor-group-2 { animation: cursor-move-2 24s infinite; }
+      #cursor-group-3 { animation: cursor-move-3 24s infinite; }
+      #cursor-group-4 { animation: cursor-move-4 24s infinite; }
+      #cursor-group-5 { animation: cursor-move-5 24s infinite; }
+      #cursor-group-6 { animation: cursor-move-6 24s infinite; }
+    </style>
+
+    <!-- Clip Paths for Typewriter Effect using ch units -->
+    <clipPath id="clip-1"><rect id="clip-rect-1" class="font-spec" x="92" y="0" width="0" height="50" /></clipPath>
+    <clipPath id="clip-2"><rect id="clip-rect-2" class="font-spec" x="92" y="0" width="0" height="50" /></clipPath>
+    <clipPath id="clip-3"><rect id="clip-rect-3" class="font-spec" x="92" y="0" width="0" height="50" /></clipPath>
+    <clipPath id="clip-4"><rect id="clip-rect-4" class="font-spec" x="92" y="0" width="0" height="50" /></clipPath>
+    <clipPath id="clip-5"><rect id="clip-rect-5" class="font-spec" x="92" y="0" width="0" height="50" /></clipPath>
+    <clipPath id="clip-6"><rect id="clip-rect-6" class="font-spec" x="92" y="0" width="0" height="50" /></clipPath>
+  </defs>
+
+  <!-- Static Prefix -->
+  <text x="20" y="25" class="font-spec text-render static-text">I am </text>
+
+  <!-- Dynamic Typing Roles -->
+  <text x="92" y="25" class="font-spec text-render dynamic-text" clip-path="url(#clip-1)">an AIML Engineer</text>
+  <text x="92" y="25" class="font-spec text-render dynamic-text" clip-path="url(#clip-2)">a Computer Vision Engineer</text>
+  <text x="92" y="25" class="font-spec text-render dynamic-text" clip-path="url(#clip-3)">a Generative AI Developer</text>
+  <text x="92" y="25" class="font-spec text-render dynamic-text" clip-path="url(#clip-4)">an AI Agents Developer</text>
+  <text x="92" y="25" class="font-spec text-render dynamic-text" clip-path="url(#clip-5)">a Full Stack MERN Developer</text>
+  <text x="92" y="25" class="font-spec text-render dynamic-text" clip-path="url(#clip-6)">a Python Developer</text>
+
+  <!-- Binary visibility toggled cursor groups mapping the character steps perfectly -->
+  <g id="cursor-group-1" class="font-spec"><rect class="cursor" x="94" y="12" width="3" height="24" /></g>
+  <g id="cursor-group-2" class="font-spec"><rect class="cursor" x="94" y="12" width="3" height="24" /></g>
+  <g id="cursor-group-3" class="font-spec"><rect class="cursor" x="94" y="12" width="3" height="24" /></g>
+  <g id="cursor-group-4" class="font-spec"><rect class="cursor" x="94" y="12" width="3" height="24" /></g>
+  <g id="cursor-group-5" class="font-spec"><rect class="cursor" x="94" y="12" width="3" height="24" /></g>
+  <g id="cursor-group-6" class="font-spec"><rect class="cursor" x="94" y="12" width="3" height="24" /></g>
+</svg>
