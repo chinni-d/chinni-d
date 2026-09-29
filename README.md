@@ -1,8 +1,6 @@
 <div align="center">
 
-# Manikanta Darapureddy 💛™️
-
-![Typing SVG](profile-typing.svg)
+# Manikanta Darapureddy
 
 <div align="center">
 
@@ -13,8 +11,6 @@
 
 </div>
 
----
-
 </div>
 
 ## 👨‍💻 About Me
@@ -22,8 +18,6 @@
 I am a highly driven **AI/ML Engineer** and **Full Stack Developer** specializing in building intelligent, scalable, and high-performance applications. I design and develop **SaaS products end-to-end**, spanning the complete lifecycle: from training and deploying custom deep learning & computer vision models to building robust GenAI-powered agentic systems, high-performance Python backends, and modern MERN stack web architectures.
 
 I have a strong passion for **Client-Side Processing (CSP)** and **Edge Computing**, leveraging browser capabilities to build low-latency, privacy-first, and zero-infrastructure-cost solutions.
-
----
 
 ## 📊 GitHub Contribution Graph
 
@@ -36,8 +30,6 @@ I have a strong passion for **Client-Side Processing (CSP)** and **Edge Computin
 </picture>
 
 </div>
-
----
 
 
 ## 💼 Technical Stack
